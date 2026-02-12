@@ -2,10 +2,6 @@
 __pycache__/
 *.pyc
 
-# Selenium
-screenshots/
-*.png
-
 # Virtual env
 venv/
 .env
@@ -16,6 +12,5 @@ venv/
 # Pytest cache
 .pytest_cache/
 
-# Reports
-report.html
-reports/
+
+
