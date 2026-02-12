@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Selenium
+screenshots/
+*.png
+
+# Virtual env
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Reports
+report.html
+reports/
