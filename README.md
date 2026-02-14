@@ -3,6 +3,12 @@
 Hi, I am **Talari Mohana Ranga**, a QA Automation fresher.
 This project shows my hands-on practice with Selenium, Python, and Pytest using Page Object Model (POM).
 
+![Top Language](https://img.shields.io/github/languages/top/TMranga20/Automationproject_selenium)
+![Repo Size](https://img.shields.io/github/repo-size/TMranga20/Automationproject_selenium)
+![Stars](https://img.shields.io/github/stars/TMranga20/Automationproject_selenium?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/TMranga20/Automationproject_selenium)
+![Issues](https://img.shields.io/github/issues/TMranga20/Automationproject_selenium)
+
 ## Career Objective
 
 To start my career as a QA Automation Engineer and contribute to building reliable, high-quality web applications through effective test automation.
