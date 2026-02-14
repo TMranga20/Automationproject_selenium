@@ -18,23 +18,25 @@ To start my career as a QA Automation Engineer and contribute to building reliab
 This is an automation test framework for `https://automationexercise.com`.
 It covers important user flows like login, signup, product checks, cart flow, and regression scenarios.
 
-## Skills Used
+## 🧰 Tech Stack
 
-- Python
-- Selenium WebDriver
-- Pytest
-- Page Object Model (POM)
-- Git and GitHub
-- VS Code
+![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-43B02A?logo=selenium&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-Test%20Runner-000000?logo=pytest&logoColor=white)
+![POM](https://img.shields.io/badge/Pattern-Page_Object_Model-0B5394)
+![Git](https://img.shields.io/badge/Git-GitHub-181717?logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/IDE-VS%20Code-007ACC?logo=visual-studio-code&logoColor=white)
 
-## Key Highlights
+Built with: Python • Selenium WebDriver • Pytest • Page Object Model (POM) • Git & GitHub • VS Code
+
+## ✨ Key Highlights
 
 - Structured test framework with reusable page classes
 - Separate `tests/`, `pages/`, and `utils/` folders
 - Screenshot capture for failed tests
 - HTML report support using `pytest-html`
 
-## Project Structure
+## 🗂 Project Structure
 
 ```text
 Automationproject_selenium/
@@ -48,7 +50,7 @@ Automationproject_selenium/
 |-- requirements.txt
 ```
 
-## How To Run (Windows PowerShell)
+## ▶️ How To Run (Windows PowerShell)
 
 1. Create virtual environment:
 
@@ -86,12 +88,20 @@ python -m pytest -m regression -v
 python -m pytest --html=reports/report.html
 ```
 
-## Contact
+## 📬 Contact
 
 - Name: Talari Mohana Ranga
 - Role: QA Automation Fresher
 - LinkedIn: https://www.linkedin.com/in/talarimohana/
 - Email: mohanranga7290@gmal.com
+
+
+## 🔭 Roadmap / Next improvements (suggested)
+
+- Add GitHub Actions CI workflow to run tests on push / PR (matrix: Python versions, browsers)
+- Add test reporting (pytest-html and/or Allure)
+- Add browser driver management (webdriver-manager) and Dockerized test runner
+- Add sample test data and more example test cases in `tests/`
 
 ## Note
 
