@@ -1,109 +1,206 @@
-# QA Automation Fresher Profile
+# 🚀 Selenium Automation Framework – Python | Pytest | POM | DDT
 
-Hi, I am **Talari Mohana Ranga**, a QA Automation fresher.
-This project shows my hands-on practice with Selenium, Python, and Pytest using Page Object Model (POM).
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
+![Pytest](https://img.shields.io/badge/Pytest-Framework-orange)
+![POM](https://img.shields.io/badge/Design-Page%20Object%20Model-purple)
+![DDT](https://img.shields.io/badge/Data%20Driven-CSV-yellow)
+![Status](https://img.shields.io/badge/Build-Passing-brightgreen)
+![Git](https://img.shields.io/badge/Git-Version%20Control-orange?logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
 
-![Top Language](https://img.shields.io/github/languages/top/TMranga20/Automationproject_selenium)
-![Repo Size](https://img.shields.io/github/repo-size/TMranga20/Automationproject_selenium)
-![Stars](https://img.shields.io/github/stars/TMranga20/Automationproject_selenium?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/TMranga20/Automationproject_selenium)
-![Issues](https://img.shields.io/github/issues/TMranga20/Automationproject_selenium)
+---
 
-## Career Objective
+## 📌 Project Overview
 
-To start my career as a QA Automation Engineer and contribute to building reliable, high-quality web applications through effective test automation.
+This project is a **Selenium Automation Testing Framework** developed using **Python and Pytest** implementing the **Page Object Model (POM)** design pattern and **Data Driven Testing (DDT)**.
 
-## About This Project
+The framework automates core functionalities of the website:  
+🔗 https://automationexercise.com
 
-This is an automation test framework for `https://automationexercise.com`.
-It covers important user flows like login, signup, product checks, cart flow, and regression scenarios.
+It is designed with scalability, reusability, and maintainability following **industry best practices**.
 
-## 🧰 Tech Stack
+---
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-WebDriver-43B02A?logo=selenium&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-Test%20Runner-000000?logo=pytest&logoColor=white)
-![POM](https://img.shields.io/badge/Pattern-Page_Object_Model-0B5394)
-![Git](https://img.shields.io/badge/Git-GitHub-181717?logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/IDE-VS%20Code-007ACC?logo=visual-studio-code&logoColor=white)
+## ✨ Key Features
 
-Built with: Python • Selenium WebDriver • Pytest • Page Object Model (POM) • Git & GitHub • VS Code
+✔ Selenium WebDriver with Python  
+✔ Pytest Test Framework  
+✔ Page Object Model (POM)  
+✔ Data Driven Testing using CSV  
+✔ Regression Test Suite  
+✔ Product & Cart Module Automation  
+✔ Implicit & Explicit Waits  
+✔ Screenshot capture for failed tests  
+✔ HTML Test Reports  
+✔ Modular and Scalable Framework  
 
-## ✨ Key Highlights
+---
 
-- Structured test framework with reusable page classes
-- Separate `tests/`, `pages/`, and `utils/` folders
-- Screenshot capture for failed tests
-- HTML report support using `pytest-html`
+## 🛠️ Tech Stack
 
-## 🗂 Project Structure
+- **Language:** Python  
+- **Automation Tool:** Selenium WebDriver  
+- **Test Framework:** Pytest  
+- **Design Pattern:** Page Object Model (POM)  
+- **Data Driven:** CSV + Pytest Parametrize  
+- **IDE:** VS Code  
+- **Version Control:** Git & GitHub  
 
-```text
+---
+
+## 📂 Project Structure
+
+```
 Automationproject_selenium/
-|-- tests/
-|-- pages/
-|-- utils/
-|-- screenshots/
-|-- reports/
-|-- conftest.py
-|-- pytest.ini
-|-- requirements.txt
+│
+├── tests/
+│   ├── test_home.py
+│   ├── test_login.py
+│   ├── test_login_ddt.py
+│   ├── test_products.py
+│   ├── test_cart.py
+│   ├── test_regression.py
+│
+├── pages/
+│   ├── base_page.py
+│   ├── home_page.py
+│   ├── login_page.py
+│   ├── products_page.py
+│   ├── cart_page.py
+│
+├── utilities/
+│   ├── driver_setup.py
+│   ├── read_csv.py
+│
+├── test_data/
+│   ├── login_data.csv
+│
+├── screenshots/
+│
+├── conftest.py
+├── pytest.ini
+├── requirements.txt
+└── README.md
 ```
 
-## ▶️ How To Run (Windows PowerShell)
+---
 
-1. Create virtual environment:
+## ▶️ How to Run the Project
 
-```powershell
-python -m venv venv
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/Automationproject_selenium.git
+cd Automationproject_selenium
 ```
 
-2. Activate virtual environment:
+### 2️⃣ Install Dependencies
 
-```powershell
-.\venv\Scripts\Activate.ps1
+```bash
+pip install -r requirements.txt
 ```
 
-3. Install dependencies:
+### 3️⃣ Run All Test Cases
 
-```powershell
-python -m pip install -r requirements.txt
+```bash
+pytest -v
 ```
 
-4. Run all tests:
+### 4️⃣ Run Specific Test Suites
 
-```powershell
-python -m pytest -v
+Run regression suite:
+
+```bash
+pytest -m regression -v
 ```
 
-5. Run regression tests:
+Run product tests:
 
-```powershell
-python -m pytest -m regression -v
+```bash
+pytest -m products -v
 ```
 
-6. Generate HTML report:
+Run cart tests:
 
-```powershell
-python -m pytest --html=reports/report.html
+```bash
+pytest -m cart -v
 ```
 
-## 📬 Contact
+Run data-driven tests:
 
-- Name: Talari Mohana Ranga
-- Role: QA Automation Fresher
-- LinkedIn: https://www.linkedin.com/in/talarimohana/
-- Email: mohanranga7290@gmal.com
+```bash
+pytest -m ddt -v
+```
 
+---
 
-## 🔭 Roadmap / Next improvements (suggested)
+## 📊 Generate HTML Report
 
-- Add GitHub Actions CI workflow to run tests on push / PR (matrix: Python versions, browsers)
-- Add test reporting (pytest-html and/or Allure)
-- Add browser driver management (webdriver-manager) and Dockerized test runner
-- Add sample test data and more example test cases in `tests/`
+```bash
+pytest --html=report.html
+```
 
-## Note
+After execution, open:
 
-- If `pytest` command is not recognized, use `python -m pytest`.
-- In VS Code, select interpreter: `.\\venv\\Scripts\\python.exe`.
+```
+report.html
+```
+
+to view detailed test results.
+
+---
+
+## 🧪 Test Coverage
+
+🔹 Home Page Validation  
+🔹 Login Functionality  
+🔹 Data Driven Login Tests  
+🔹 Product Page Automation  
+🔹 Add to Cart Flow  
+🔹 Cart Validation  
+🔹 End-to-End Regression Suite  
+
+Total: **30+ Automated Test Cases**
+
+---
+
+## 📸 Screenshot on Failure
+
+The framework automatically captures screenshots for failed test cases and stores them in:
+
+```
+screenshots/
+```
+
+---
+
+## 🧠 Framework Highlights
+
+- Reusable page classes using POM  
+- Pytest fixtures for driver setup and teardown  
+- CSV-based test data management  
+- Modular test execution using Pytest markers  
+- Clean separation of test logic and locators  
+
+---
+
+## 🚀 Future Enhancements
+
+- Allure Reporting  
+- Jenkins CI/CD Integration  
+- Parallel Test Execution (pytest-xdist)  
+- Headless Browser Execution  
+- Excel-based Data Driven Testing  
+
+---
+
+## 👨‍💻 Author
+
+**Talari Mohana Ranga**  
+QA Automation Engineer (Fresher)  
+🔗 GitHub: https://github.com/<your-username>  
+
+---
+
+## ⭐ If you found this project useful, please give it a star!
