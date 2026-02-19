@@ -199,7 +199,6 @@ screenshots/
 
 **Talari Mohana Ranga**  
 QA Automation Engineer (Fresher)  
-🔗 GitHub: https://github.com/<your-username>  
 
 ---
 
